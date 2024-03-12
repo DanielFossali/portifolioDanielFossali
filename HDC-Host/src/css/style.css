@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital@1&display=swap');
+
+:root{
+    --black : #0D0D0D;
+    --gray-400 : #262626;
+    --gray-300 : #A6A6A6;
+    --gray-100 : #D9D9D9;
+    --white : #FFFCF2;
+    --blue-300 : #364663;
+    --blue-200 : #2F3D57;
+    --blue-100 : #5873A3;
+    --red : #A63232;
+    --yellow : #D6BB58;
+    --green-200 : #04DEB0;
+    --green-100 : #05FA81;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3{
+    color: var(--black);
+}
+
+p{
+    color: var(--gray-400);
+}
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: var(--blue-300);
+    padding: 0 2 ren;
+}
+
+nav {
+    position: relative;
+}
+
+.logo{
+    width: 80px;
+    margin-top: 10px;
+
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.navbar-items a{
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover{
+    color: var(--gray-400);
+
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: var(--green-200);
+    border-radius: 5px;
+}
+
+.default-btn:hover {
+    background-color: var(--green-100);
+    color: var(--white);
+}
